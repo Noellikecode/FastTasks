@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  transition: 0.4s;
+}
+.title-text-name {
+  font-size: 40px;
+  color: #26a8bc;
+  display: flex;
+  margin-left: 10%;
+}
+
+.sign-out-button {
+  background-color: #c2471b;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-weight: bold;
+  appearance: none;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-home-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add-task-home-button {
+  width: 50px;
+  height: 50px;
+  background-color: #1279d5;
+  border: none;
+  margin-top: 2%;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  outline-style: initial;
+  border-radius: 100px;
+}

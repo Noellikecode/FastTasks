@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.todo-list {
+  display: inline-grid;
+  width: 25%;
+}
+.card-title {
+  font-size: 30px;
+}
+.card-date {
+  font-size: 20px;
+  font-style: italic;
+}
+.Card {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5%;
+  background-color: #a1a9aa;
+  box-shadow: 10px 5px 5px #626768;
+}
+
+.card-button-bar {
+  display: flex;
+  justify-content: space-around;
+}
+.card-button {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5%;
+  color: white;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bold;
+  appearance: none;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  padding: 4px 8px;
+  background-image: linear-gradient(to right, black 50%, white 50%);
+  background-position: 0%;
+  background-size: 200%;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.card-button:hover {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-position: 100%;
+}
+.description-text {
+  word-wrap: break-word;
+}

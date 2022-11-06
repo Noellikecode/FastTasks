@@ -1,0 +1,52 @@
+.form-handler {
+  display: grid;
+}
+.form-control {
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 20%;
+}
+.save-task-button {
+  float: right;
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bold;
+  appearance: none;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  background-image: linear-gradient(to right, black 50%, white 50%);
+  background-position: 0%;
+  background-size: 200%;
+  font-size: 24px;
+  cursor: pointer;
+}
+.save-task-button:hover {
+  color: black;
+  background-position: 100%;
+}
+
+.text-input {
+  display: block;
+  border-radius: 10px;
+  width: 70%;
+  height: 50px;
+  outline: none;
+  font-size: 100%;
+}
+label {
+  font-size: 40px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.add-task-page-title {
+  display: flex;
+  justify-content: space-around;
+}

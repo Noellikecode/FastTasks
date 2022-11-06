@@ -1,0 +1,71 @@
+.timer {
+  font-size: 500%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pomodoro-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-light-timer {
+  margin-right: 20%;
+  margin-top: 0.75%;
+  background-color: #26a8bc;
+  transition: 0.4s;
+  border-radius: 100%;
+  padding: 7px;
+  cursor: pointer;
+}
+.icon-dark-timer {
+  margin-right: 20%;
+  margin-top: 0.75%;
+  background-color: #e9cb44;
+  transition: 0.4s;
+  border-radius: 100%;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.task-done-timer-handler {
+  display: flex;
+  justify-content: space-around;
+}
+.task-done-timer {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 5%;
+  color: white;
+  bottom: 20px;
+  left: 20px;
+  font-weight: bold;
+  appearance: none;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  background-image: linear-gradient(to right, black 50%, white 50%);
+  background-position: 0%;
+  background-size: 200%;
+  font-size: 24px;
+  cursor: pointer;
+}
+.task-done-timer:hover {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-position: 100%;
+}
+
+.quote-handler {
+  text-align: center;
+  margin-top: 10%;
+  border: 9px solid black;
+  margin-right: auto;
+  margin-left: auto;
+}
+.quote-text {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}

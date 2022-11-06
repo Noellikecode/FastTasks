@@ -1,0 +1,89 @@
+.big-login-page-handler {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+.login-page-title {
+  text-align: center;
+}
+.login-page-handler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  width: 50%;
+}
+.paragraph {
+  text-align: center;
+}
+
+.form {
+  width: 20%;
+  border-radius: 10px;
+  box-shadow: 5px 10px #888888;
+  background-color: #cdcecf;
+  width: 200%;
+}
+
+.button-wrapper {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.text-input-login {
+  align-items: center;
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.login-button {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  bottom: 20px;
+  font-weight: bold;
+  appearance: none;
+  border: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  background-image: linear-gradient(to right, black 50%, white 50%);
+  background-position: 0%;
+  background-size: 200%;
+  font-size: 24px;
+  cursor: pointer;
+}
+.login-button-two {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  bottom: 20px;
+  font-weight: bold;
+  appearance: none;
+  border: none;
+  transition: 0.4s;
+  padding: 4px 8px;
+  background-image: linear-gradient(to right, black 50%, white 50%);
+  background-position: 0%;
+  background-size: 200%;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+.login-button:hover {
+  color: black;
+  background-position: 100%;
+}
+.login-button-two:hover {
+  color: black;
+  background-position: 100%;
+}
+
